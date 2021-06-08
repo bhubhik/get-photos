@@ -1,10 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Home from './components/homeComponents';
+import SearchBar from './components/searchBar';
 
 function App() {
   return (
     <div className='App'>
-      <h1>Welcome to my React app</h1>
+      <h1 className='titleDisplay'>Look for the magic in every moment.</h1>
+
+      <Home />
+      <SearchBar />
     </div>
   );
 }
