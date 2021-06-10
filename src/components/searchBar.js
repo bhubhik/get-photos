@@ -14,7 +14,7 @@ const SearchBar = ({ onSubmit, disabled }) => {
 
   return (
     <div className='searchBox'>
-      <form className='searchForm' onSumbit={handleSubmit}>
+      <form className='searchForm' onSubmit={handleSubmit}>
         <div className='searchText'>
           <Input
             className='input '
@@ -26,7 +26,7 @@ const SearchBar = ({ onSubmit, disabled }) => {
         </div>
       </form>
       <div className='searchButton'>
-        <Button color='primary' className='button '>
+        <Button color='primary' className='button btn' onClick={handleSubmit}>
           Search
         </Button>
       </div>
