@@ -3,7 +3,7 @@ import { Button } from 'react-bulma-components';
 import { Form } from 'react-bulma-components';
 
 const SearchBar = ({ onSubmit, disabled }) => {
-  const { Input, Field, Control, Label } = Form;
+  const { Input } = Form;
   const [userInput, setUserInput] = useState('');
 
   const handleSubmit = (e) => {

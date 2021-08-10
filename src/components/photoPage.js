@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: 'hidden',
   },
   gridList: {
-    width: 950,
+    width: '980px',
   },
 }));
 
